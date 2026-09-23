@@ -17,7 +17,7 @@ async function fetchServerStatus() {
     const statuses = document.getElementById("status_online");
     const details = document.getElementById("status_detail");
     const members = document.getElementById("status_members");
-    fetch("https://api.mcsrvstat.us/3/play.kotoca.net")
+    fetch("https://api.mcsrvstat.us/3/sacra.wata777.f5.si")
         .then(response => response.json())
         .then(data => {
             console.log(data);
